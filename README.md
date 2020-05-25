@@ -3,7 +3,8 @@
 ### What it is
 
     For this project I had to create a portfolio page that responds to varying device sizes.
-    I used bootstrap and it's grid system to create an organized page that will change the size and alignment of the different divs displayed.
+    I used bootstrap and it's grid system to create an organized page that will change the size and 
+    alignment of the different divs displayed.
     For anything larger than a small screen everything should display horizontally if applicable.
     For smaller handheld devices there is a breakpoint of 576px which makes everything align vertically.
 
