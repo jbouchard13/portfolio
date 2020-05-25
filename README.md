@@ -1,4 +1,4 @@
-# responsive-portfolio
+# My Portfolio
 
 ### What it is
 
@@ -18,6 +18,6 @@
     As well as an email link that will prompt you to send me an email.
 
 ### Resources
-    * Bootstrap
-    * Google Fonts
-    * Fontawesome Icons
+- Bootstrap
+- Google Fonts
+- Fontawesome Icons
