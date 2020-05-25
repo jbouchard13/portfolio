@@ -1,5 +1,8 @@
 # My Portfolio
 
+### Link to the Page
+[https://jbouchard13.github.io/portfolio/] (Check it out here.)
+
 ### What it is
 
     For this project I had to create a portfolio page that responds to varying device sizes.
