@@ -1,120 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contacts</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-</head>
+    <link rel="stylesheet" href="Assets/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<body>
-
+  <body>
     <!-- Nav Bar -->
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">John Bouchard</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="index.html">About Me</a>
-                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                    <a class="nav-item nav-link active" href="contact.html">Contact</a>
-                </div>
-            </div>
-        </nav>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">John Bouchard</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="index.html">About Me</a>
+            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-item nav-link active" href="contact.html">Contact</a>
+          </div>
+        </div>
+      </nav>
     </header>
-
 
     <!-- Main container of the page  -->
 
     <main>
-        <div class="container">
+      <div class="container">
+        <!-- Header info -->
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="card bg-light">
+              <div class="card-body">
+                <h3 class="text-center">Contact Info</h3>
+              </div>
+            </div>
 
-            <!-- Header info -->
+            <!-- Content with contact list and email link -->
             <div class="row">
-                <div class="col-sm-12">
-                    <div class="card bg-light">
-                        <div class="card-body">
-                            <h3 class="text-center">Contact Info</h3>
-                        </div>
+              <div class="col-sm-6">
+                <div class="card" style="width: 100%; height: 100%;">
+                  <div class="card-body">
+                    <p class="card-text">
+                      Here you'll find various ways to reach me.
+                    </p>
+                    <p class="card-text">
+                      You can also reach me via email at:
+                      <a
+                        href="mailto:jbouchard13@gmail.com? subject=portfolio email"
+                        >jbouchard13@gmail.com</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Header for social links  -->
+              <div class="col-sm-6">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="card">
+                      <h5 class="text-center">
+                        Links to my social media
+                      </h5>
                     </div>
+                  </div>
 
-                    <!-- Content with contact list and email link -->
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="card" style="width: 100%; height: 100%;">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        Here you'll find various ways to reach me.
-                                    </p>
-                                    <p class="card-text">
-                                        You can also reach me via email at:
-                                        <a
-                                            href="mailto:jbouchard13@gmail.com? subject=portfolio email">jbouchard13@gmail.com</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Header for social links  -->
-                        <div class="col-sm-6">
-                            <div class="row">
-                                <div class="col-sm-12">
-                                    <div class="card">
-                                        <h5 class="text-center">
-                                            Links to my social media
-                                        </h5>
-                                    </div>
-                                </div>
-
-                                <!-- List of social links -->
-                                <div class="col-sm-12">
-                                    <div class="card" style="width: 100%; height: 100%;">
-                                        <div class="card-body">
-                                            <ul>
-                                                <li>
-                                                    <a href="https://github.com/jbouchard13" target="_blank">Visit my
-                                                        Github
-                                                        page.</a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://www.linkedin.com/in/john-bouchard-48b51a145/"
-                                                        target="_blank">Visit
-                                                        my
-                                                        Linkedin page.</a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://www.facebook.com/john.bouchard.33"
-                                                        target="_blank">Visit my
-                                                        Facebook
-                                                        page.</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                  <!-- List of social links -->
+                  <div class="col-sm-12">
+                    <div class="card" style="width: 100%; height: 100%;">
+                      <div class="card-body">
+                        <ul>
+                          <li>
+                            <a
+                              href="https://github.com/jbouchard13"
+                              target="_blank"
+                              >Visit my Github page.</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="https://www.linkedin.com/in/john-bouchard-48b51a145/"
+                              target="_blank"
+                              >Visit my Linkedin page.</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="https://www.facebook.com/john.bouchard.33"
+                              target="_blank"
+                              >Visit my Facebook page.</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
     <!-- Bootstrap JavaScript -->
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
