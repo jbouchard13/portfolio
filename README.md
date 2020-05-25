@@ -1,7 +1,7 @@
 # My Portfolio
 
 ### Link to the Page
-[https://jbouchard13.github.io/portfolio/] (Check it out here.)
+[Check it out here.](https://jbouchard13.github.io/portfolio/)
 
 ### What it is
 
