@@ -1,6 +1,33 @@
+@media (max-width: 576px) {
+  #email-div {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #e63946;
+    border-radius: 0px;
+  }
+
+  #link-header {
+    border: none;
+    border-radius: 0px;
+  }
+
+  #link-div {
+    border: none;
+    border-radius: 0px;
+  }
+}
+
 body {
   background-color: #457b9d;
   font-family: "Montserrat", sans-serif;
+}
+.links {
+  color: #e63946;
+}
+.links:hover {
+  transition: ease-in 0.2s;
+  color: #1d3557;
 }
 .images {
   height: 25vh;
@@ -22,6 +49,14 @@ body {
 .header {
   background-color: #1d3557;
   color: white;
+}
+#contact-header {
+  border-bottom: 1px solid #e63946;
+  border-radius: 0px;
+}
+
+.contact-cards {
+  background-color: #f1faee;
 }
 .card-wrapper {
   position: relative;
@@ -50,6 +85,24 @@ body {
   margin-right: auto;
   margin-bottom: 25px;
   border-radius: 10px;
+}
+
+#email-div {
+  border-right: 1px solid #e63946;
+  border-radius: 0px;
+}
+
+#link-header {
+  border-bottom: none;
+  border-left: 1px solid #e63946;
+  border-radius: 0px;
+}
+
+#link-div {
+  border-bottom: none;
+  border-top: none;
+  border-left: 1px solid #e63946;
+  border-radius: 0px;
 }
 
 .button-styles {
@@ -84,7 +137,4 @@ body {
 .footer-style i {
   color: white;
   width: 30px;
-}
-.center {
-  text-align: center;
 }

@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contacts</title>
+    <title>Contact</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -55,69 +59,85 @@
       <!-- Header info -->
       <div class="row">
         <div class="col-sm-12">
-          <div class="card bg-light">
-            <div class="card-body">
-              <h3 class="text-center">Contact Info</h3>
-            </div>
-          </div>
-
-          <!-- Content with contact list and email link -->
-          <div class="row">
-            <div class="col-sm-6">
-              <div class="card" style="width: 100%; height: 100%;">
+          <div class="card-wrapper">
+            <div class="card-styles">
+              <div class="card header" id="contact-header">
                 <div class="card-body">
-                  <p class="card-text">
-                    Here you'll find various ways to reach me.
-                  </p>
-                  <p class="card-text">
-                    You can also reach me via email at:
-                    <a
-                      href="mailto:jbouchard13@gmail.com? subject=portfolio email"
-                      >jbouchard13@gmail.com</a
-                    >
-                  </p>
+                  <h3 class="text-center"><strong>Contact Info</strong></h3>
                 </div>
               </div>
-            </div>
 
-            <!-- Header for social links  -->
-            <div class="col-sm-6">
+              <!-- Content with contact list and email link -->
               <div class="row">
-                <div class="col-sm-12">
-                  <div class="card">
-                    <h5 class="text-center">
-                      Links to my social media
-                    </h5>
+                <div class="col-sm-6">
+                  <div
+                    class="card contact-cards"
+                    id="email-div"
+                    style="width: 100%; height: 100%;"
+                  >
+                    <div class="card-body">
+                      <p class="card-text">
+                        Here you'll find various ways to reach me.
+                      </p>
+                      <p class="card-text">
+                        You can also reach me via email at:
+                        <a
+                          class="links"
+                          href="mailto:jbouchard13@gmail.com? subject=portfolio email"
+                          >jbouchard13@gmail.com</a
+                        >
+                      </p>
+                    </div>
                   </div>
                 </div>
 
-                <!-- List of social links -->
-                <div class="col-sm-12">
-                  <div class="card" style="width: 100%; height: 100%;">
-                    <div class="card-body">
-                      <ul>
-                        <li>
-                          <a
-                            href="https://github.com/jbouchard13"
-                            target="_blank"
-                            >Visit my Github page.</a
-                          >
-                        </li>
-                        <li>
-                          <a
-                            href="https://www.linkedin.com/in/john-bouchard-48b51a145/"
-                            target="_blank"
-                            >Visit my Linkedin page.</a
-                          >
-                        </li>
-                        <li>
-                          <a
-                            href="https://www.facebook.com/john.bouchard.33"
-                            target="_blank"
-                            >Visit my Facebook page.</a
-                          >
-                        </li>
-                      </ul>
+                <!-- Header for social links  -->
+                <div class="col-sm-6">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="card contact-cards" id="link-header">
+                        <h5 class="text-center">
+                          Links to my social media
+                        </h5>
+                      </div>
+                    </div>
+
+                    <!-- List of social links -->
+                    <div class="col-sm-12">
+                      <div
+                        class="card contact-cards"
+                        id="link-div"
+                        style="width: 100%; height: 100%;"
+                      >
+                        <div class="card-body">
+                          <ul>
+                            <li>
+                              <a
+                                class="links"
+                                href="https://github.com/jbouchard13"
+                                target="_blank"
+                                >Visit my Github page.</a
+                              >
+                            </li>
+                            <li>
+                              <a
+                                class="links"
+                                href="https://www.linkedin.com/in/john-bouchard-48b51a145/"
+                                target="_blank"
+                                >Visit my Linkedin page.</a
+                              >
+                            </li>
+                            <li>
+                              <a
+                                class="links"
+                                href="https://www.facebook.com/john.bouchard.33"
+                                target="_blank"
+                                >Visit my Facebook page.</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -131,11 +151,31 @@
     <!-- footer -->
 
     <footer class="footer-style">
-      <p>
-        &copy; 2020
-        <a class="" href="https://github.com/jbouchard13" target="_blank"
-          >John</a
-        >
+      <p class="footer-links">
+        <a
+          class="nav-item nav-link"
+          href="https://github.com/jbouchard13"
+          target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a
+          class="nav-item nav-link"
+          href="https://www.linkedin.com/in/john-bouchard-48b51a145/"
+          target="_blank"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+        <a
+          class="nav-item nav-link"
+          href="https://www.facebook.com/john.bouchard.33"
+          target="_blank"
+          ><i class="fab fa-facebook"></i
+        ></a>
+        <a
+          class="nav-item nav-link"
+          href="mailto:jbouchard13@gmail.com? subject=portfolio email"
+          target="_blank"
+          ><i class="fas fa-mail-bulk"></i
+        ></a>
       </p>
     </footer>
 
