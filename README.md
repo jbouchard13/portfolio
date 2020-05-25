@@ -11,11 +11,10 @@
 ### Features
 
     On my page you will find an about me section with an included picture.
-    By navigating the links in the navbar you will find a portfolio page filled with placeholder text and images.
-    At the moment where I don't have any completed projects I have nothing to put into these spots.
-    As time goes on these spots will be filled with actual links to projects I've worked on.
-    On the contact page you'll find links to a few of my social media platforms.
-    As well as an email link that will prompt you to send me an email.
+    By navigating the links in the navbar you will find a portfolio page with links to some of my completed work.
+    From there the user can check out the deployed apps or the repositories for each application.
+    There is also a footer on the page with icons that link to my various social media accounts.
+    If the user goes to the contact page they can see direct links to my social media accounts as well.
 
 ### Resources
 - Bootstrap
