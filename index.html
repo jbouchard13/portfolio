@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>John Bouchard</title>
+
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -11,6 +12,10 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="Assets/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/9a5e61f5d9.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
@@ -47,45 +52,82 @@
 
     <!-- Main about me section -->
 
-    <main class="container">
+    <div class="container">
       <div class="row">
         <div class="col-sm-12">
-          <div class="card card-styles">
-            <div class="card-header header">
-              <h5 class="text-center">About Me</h5>
-            </div>
+          <div class="card-wrapper" id="bio-wrapper">
+            <div class="card card-styles">
+              <div class="card-header header">
+                <h5 class="text-center">About Me</h5>
+              </div>
 
-            <div class="card-body cardbody">
-              <img
-                src="Assets\Images\me-1.jpg"
-                class=""
-                alt="John sitting in a restaurant"
-                id="bio-img"
-              />
-              <div class="paragraphs">
-                <p class="card-text" id="bio-text-top">
-                  Hello and welcome to my portfolio webpage! I am a 25 year old
-                  web developer currently enrolled in the UNH coding bootcamp
-                  program. I have experience using html, css, vanilla
-                  javascript, as well as jQuery. On top of that I've worked with
-                  various web APIs.
-                </p>
-                <p class="card-text">
-                  As I continue on my journey to become a better web developer
-                  you'll be able to see some of my projects through the
-                  portfolio link on my page. Also, be sure to check out my
-                  contact page if you'd like to get in touch with me.
-                </p>
+              <div class="card-body cardbody">
+                <img
+                  src="Assets\Images\me-1.jpg"
+                  class=""
+                  alt="John sitting in a restaurant"
+                  id="bio-img"
+                />
+                <div class="paragraphs">
+                  <p class="card-text" id="bio-text-top">
+                    Hello and welcome to my portfolio webpage! I am a 25 year
+                    old web developer currently enrolled in the UNH coding
+                    bootcamp program. With my current job I manage the custom
+                    framing department at my store. This has allowed me to learn
+                    how to work with a team, manage time effecively, and meet
+                    deadlines, all while still being creative. With what I have
+                    learned so far, I have experience using HTML, CSS, vanilla
+                    JavaScript, as well as jQuery. On top of that I've worked
+                    with various web APIs gathering info, and navigating through
+                    their responses.
+                  </p>
+                  <p class="card-text">
+                    I've always enjoyed being creative as well as figuring out
+                    how things work so coding has been a great way for me to
+                    achieve both of those things. As I continue on my journey to
+                    become a better web developer you'll be able to see some of
+                    my projects through the portfolio link on my page. Also, be
+                    sure to check out the links on the footer of the page if
+                    you'd like to get in touch with me.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </main>
+    </div>
 
     <!-- Footer  -->
 
-    <footer></footer>
+    <footer class="footer-style">
+      <p class="footer-links">
+        <a
+          class="nav-item nav-link"
+          href="https://github.com/jbouchard13"
+          target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a
+          class="nav-item nav-link"
+          href="https://www.linkedin.com/in/john-bouchard-48b51a145/"
+          target="_blank"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+        <a
+          class="nav-item nav-link"
+          href="https://www.facebook.com/john.bouchard.33"
+          target="_blank"
+          ><i class="fab fa-facebook"></i
+        ></a>
+        <a
+          class="nav-item nav-link"
+          href="mailto:jbouchard13@gmail.com? subject=portfolio email"
+          target="_blank"
+          ><i class="fas fa-mail-bulk"></i
+        ></a>
+      </p>
+    </footer>
 
     <!-- Bootstrap JavaScript -->
 
