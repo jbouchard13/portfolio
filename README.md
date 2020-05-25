@@ -18,5 +18,6 @@
     As well as an email link that will prompt you to send me an email.
 
 ### Resources
-
-    The page was styled using Bootstrap
+    * Bootstrap
+    * Google Fonts
+    * Fontawesome Icons
