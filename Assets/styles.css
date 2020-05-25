@@ -1,4 +1,51 @@
+body {
+  background-color: #457b9d;
+}
 .images {
-  height: 35vh;
-  width: 300px;
+  height: 25vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.paragraphs {
+  border: solid 2px black;
+}
+
+.nav-styles {
+  background-color: #1d3557;
+}
+
+.header {
+  background-color: #1d3557;
+  color: white;
+}
+
+.card-styles {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #f1faee;
+  border: 5px groove #e63946;
+  border-radius: 10px;
+}
+
+#bio-img {
+  max-width: 50%;
+  display: block;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.button-styles {
+  color: white;
+  background-color: #1d3557;
+}
+
+.button-styles:hover {
+  color: white;
+  background-color: #457b9d;
+  transition: ease-in 0.2s;
 }
