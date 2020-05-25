@@ -1,5 +1,6 @@
 body {
   background-color: #457b9d;
+  font-family: "Montserrat", sans-serif;
 }
 .images {
   height: 25vh;
@@ -83,4 +84,7 @@ body {
 .footer-style i {
   color: white;
   width: 30px;
+}
+.center {
+  text-align: center;
 }
